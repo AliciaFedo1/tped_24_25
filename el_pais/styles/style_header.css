@@ -1,0 +1,13 @@
+header {
+    height: 75px;
+    width: 100%;
+    background-color: blue;
+    z-index: 1000;
+    position: fixed;
+}
+
+#menu_bar {
+    margin: 10px 10px 10px;
+    height: 60px;
+    width: auto;
+}
