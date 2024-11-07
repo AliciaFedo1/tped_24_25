@@ -1,0 +1,38 @@
+h1 {
+    font-size: 32pt;
+    color: azure;
+}
+
+h2 {
+    font-size: 25pt;
+    color: azure;
+}
+
+body {
+    background-color: rgb(15, 19, 26);
+}
+
+header {
+    height: 70px;
+}
+
+section {
+    width: auto;
+}
+
+.gallery {
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: blur(4px);
+}
+
+a:hover img {
+    filter: blur(0);
+}
