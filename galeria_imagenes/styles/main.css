@@ -19,20 +19,3 @@ header {
 section {
     width: auto;
 }
-
-.gallery {
-    width: 100%;
-    margin-top: 20px;
-    margin: auto;
-    align-items: center;
-}
-
-img {
-    width: 33%;
-    height: auto;
-    filter: blur(4px);
-}
-
-a:hover img {
-    filter: blur(0);
-}
