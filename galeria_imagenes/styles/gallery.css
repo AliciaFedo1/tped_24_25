@@ -1,4 +1,6 @@
 .gallery {
+    display: flex;
+    flex-direction:column;
     width: 100%;
     margin-top: 20px;
     margin: auto;
@@ -6,11 +8,27 @@
 }
 
 img {
-    width: 33%;
-    height: auto;
-    filter: blur(4px);
+    filter: blur(2px);
 }
 
 a:hover img {
     filter: blur(0);
 }
+
+.row {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    max-width: 400px;
+    max-height: 400px;
+
+    margin-top: 8px;
+    vertical-align: middle;
+  }
