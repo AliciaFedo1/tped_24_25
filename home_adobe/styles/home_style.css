@@ -1,0 +1,72 @@
+body {
+    background-image: url(../img/fondo-1400x860.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#main {
+    display: flex;
+    height: 80vh;
+    padding: 16px;
+}
+
+#col_1 {
+    padding-bottom: 0px;
+}
+
+#col_2 {
+    align-content: flex-end;
+}
+
+.col {
+    width: 50%;
+}
+
+#foot {
+    display: flex;
+    height: 40vh;
+    background-color: blue;
+    padding: 16px;
+}
+
+#foot_col {
+    width: 25%;
+}
+
+#txt_foot {
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(42, 41, 41);
+}
+
+span {
+    color: gold;
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+button {
+    background-color: blue;
+    color: aliceblue;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    border-style: none;
+    border-radius: 8px;
+}
+
+ul {
+    text-align: right;
+    padding-right: 18px;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+}
