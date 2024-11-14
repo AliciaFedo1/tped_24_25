@@ -24,7 +24,7 @@ body {
 
 #foot {
     display: flex;
-    height: 40vh;
+    height: 4vh;
     background-color: blue;
     padding: 16px;
 }
@@ -66,7 +66,8 @@ ul {
 }
 
 ul, li {
+    text-align: right;
     list-style: none;
     display: inline-block;
-    margin-left: 16px;
+    margin-right: 16px;
 }
