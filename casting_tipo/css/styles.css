@@ -1,0 +1,21 @@
+body {
+    background-color:aliceblue;
+    margin: 40px;
+}
+
+p {
+    font-size: 12pt;
+    text-align: left;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid > div {
+    width: 30%;
+    margin: 10px;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Quicksand:wght@300..700&family=Rakkas&family=Sixtyfour&display=swap');
+#rakkas {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Quicksand:wght@300..700&family=Rakkas&family=Righteous&family=Sixtyfour&display=swap');
+#righteous {
+    font-family: "Hind", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Hind&family=League+Script&family=Quicksand:wght@300..700&family=Rakkas&family=Righteous&family=Sixtyfour&display=swap');
+#ballet{
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Hind&family=League+Script&family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=Rakkas&family=Righteous&family=Sixtyfour&display=swap');
+#orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+#sixtyfour {
+   font-family: "Sixtyfour", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+#rye {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
