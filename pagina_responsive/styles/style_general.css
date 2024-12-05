@@ -1,0 +1,12 @@
+body {
+    font-family:Inter, Newsbt;
+    src: url(assets/type/Inter_28pt_Bold.ttf) format("bold");
+    src: url(assets/type/Inter_28pt_Regular.ttf) format("regular");
+    src: url(assets/type/Inter_28pt_Thin.ttf) format("thin");
+    src: url(assets/type/News701_BT_Bold.ttf) format("title");
+    letter-spacing: 2px; 
+    background-color: black; 
+    margin-top: 20px;
+    margin-left: 10%;  
+    margin-right: 10%;
+}

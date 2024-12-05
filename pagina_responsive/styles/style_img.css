@@ -1,0 +1,37 @@
+#move {
+    cursor: move;
+  }
+  
+  .over img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(15deg);
+  }
+  
+  .over img:nth-child(2n) {
+    transform:rotate(-4deg);
+    margin-top: -100px;
+  }
+  .over img:nth-child(3n) {
+    transform:rotate(5deg);
+    margin-top: -100px;
+  }
+  
+#gallery_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+#gallery_container img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  max-width: fit-content;
+  max-height: 600px;
+}  
