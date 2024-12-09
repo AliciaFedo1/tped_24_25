@@ -1,0 +1,23 @@
+div {
+    background-color: lightcyan;
+}
+
+#nav {
+    background-color: gray;
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+}
+
+#contenido {
+    background-color: gray;
+    width: 700px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 5px;
+}
+
+.alto {
+    height: 50vw;
+}
