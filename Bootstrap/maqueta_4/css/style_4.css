@@ -1,0 +1,25 @@
+#logo {
+    background-color: gray;
+    text-align: center;
+}
+
+#pie {
+    background-color: gray;
+    text-align: center;
+}
+
+#nav {
+    background-color: gray;
+}
+
+#contenido {
+    background-color: darkgray;
+}
+
+#publi {
+    background-color: gray;
+}
+
+.alto {
+    height: 46vw;
+}

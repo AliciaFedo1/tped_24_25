@@ -26,6 +26,11 @@ div {
     margin: 5px;
 }
 
+#pie {
+    background-color: gray;
+    text-align: center;
+}
+
 .alto {
     height: 50vw;
 }
