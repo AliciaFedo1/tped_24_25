@@ -1,3 +1,15 @@
-div {
-    background-color: lightgray
+body {
+    background-color: bisque;
+}
+
+h1, a {
+    font-size: 32pt;
+    font-family: 'Benton Sans', sans-serif;
+    color: chocolate;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+a:hover {
+    color: black;
 }
