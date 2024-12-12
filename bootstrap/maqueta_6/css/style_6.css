@@ -3,31 +3,25 @@ div {
 }
 
 #nav {
-    background-color: gray;
-    width: 200px;
+    background-color: darkgray;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 5px;
 }
 
 #logo {
     background-color: gray;
-    width: 700px;
     padding-left: 10px;
     padding-right: 15px;
-    margin: 5px;
 }
 
 #contenido {
     background-color: gray;
-    width: 700px;
     padding-left: 10px;
     padding-right: 15px;
-    margin: 5px;
 }
 
 #publi {
-    background-color: gray;
+    background-color: darkgray;
 }
 
 #pie {
