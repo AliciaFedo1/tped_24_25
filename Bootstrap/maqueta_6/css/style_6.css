@@ -26,6 +26,10 @@ div {
     margin: 5px;
 }
 
+#publi {
+    background-color: gray;
+}
+
 #pie {
     background-color: gray;
     text-align: center;
