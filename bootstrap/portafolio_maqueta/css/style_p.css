@@ -1,0 +1,87 @@
+body {
+    font-family:Inter, Newsbt;
+    src: url(../assets/type/Inter_28pt_Bold.ttf) format("bold");
+    src: url(../assets/type/Inter_28pt_Regular.ttf) format("regular");
+    src: url(../assets/type/Inter_28pt_Thin.ttf) format("thin");
+    src: url(../assets/type/News701_BT_Bold.ttf) format("title");
+    letter-spacing: 2px; 
+}
+
+#principal {
+    text-align: left;
+    font-family: Newsbt;
+    font-size: 80px;
+    line-height: 104px;
+}
+
+#secundario {
+    text-align: left;
+    font-family: Newsbt;
+    font-size: 32px;
+    width: 100%;
+}
+
+#texto_grande {
+    font-family: Inter;
+    font-size: 32px;
+}
+
+#parrafo {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#contacto {
+    text-align: center;
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#footer {
+    text-align: left;
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#enlace {
+    font-size: 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    border-spacing: 12px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.header {
+    background-color: grey;
+}
+
+.footer {
+    background-color: grey;
+}
+
+.info {
+    background-color: lightgrey;
+}
+
+.galeria {
+    background-color: grey;
+}
