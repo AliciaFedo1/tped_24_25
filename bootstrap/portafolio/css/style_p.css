@@ -43,34 +43,41 @@ div {
 
 #contacto {
     text-align: center;
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(200, 245, 40);
+}
+#footer {
+    text-align: left;
+    list-style-type: none;
     font-family: Inter;
     font-weight: lighter;
     font-size: 18px;
     color: rgb(200, 245, 40);
 }
 
-#enlace {
+#logo {
+    font-size: 32px;
     color: rgb(200, 245, 40);
-    text-decoration: none;
-  }
-  
-#enlace:hover {
     font-weight: bolder;
 }
 
-ul.n {
-    list-style-type: none;
-    font-family: Inter;
-    font-weight: lighter;
-    text-align: left;
+#enlace {
+    font-size: 32px;
+    text-align: right;
     color: rgb(200, 245, 40);
+    text-decoration: none;
+    display: inline-block;
+    border-spacing: 12px;
   }
 
-ul.c {
-    width: 100%;
-    list-style-type: none;
-    font-family: Inter;
-    font-weight: lighter;
-    text-align: center;
+a {
     color: rgb(200, 245, 40);
-  }
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}
