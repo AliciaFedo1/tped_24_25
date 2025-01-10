@@ -23,8 +23,8 @@
   
 img{
   max-width: 400px;
-  height: auto;
-  width: fit-content;
+  height:max-content;
+  width:fit-content;
 }
 
 #gallery_container {
