@@ -1,9 +1,12 @@
 header {
     height: 75px;
     width: 100%;
-    background-color: blue;
+    background-color: #003245;
     z-index: 1000;
     position: fixed;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #menu_bar {
