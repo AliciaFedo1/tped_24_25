@@ -22,7 +22,7 @@
   }
   
 img{
-  max-width: 400px;
+  width: 400px;
   height:max-content;
   width:fit-content;
 }
@@ -30,12 +30,12 @@ img{
 #gallery_container {
   display: flex;
   flex-direction: row;
+  justify-content:space-between;
   flex-wrap: wrap;
   width: 100%;
 }
 
 #gallery_container img {
     width: 24%;
-    margin: 4px;  
     border-radius: 3px;  
 }
