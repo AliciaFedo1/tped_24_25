@@ -5,6 +5,7 @@ body {
     src: url(../assets/type/Inter_28pt_Thin.ttf) format("thin");
     src: url(../assets/type/News701_BT_Bold.ttf) format("title");
     letter-spacing: 2px; 
+    
 }
 
 div {

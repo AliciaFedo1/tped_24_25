@@ -1,0 +1,25 @@
+.header {
+    background-color: black;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.topnav a {
+    text-decoration: none;
+    font-size: 0.93vw;
+    color: rgb(200, 245, 40);
+    display: inline-block;
+    padding-inline: 50px;
+    margin-bottom: 20px;
+ }
+
+.topnav a:hover {
+  color: antiquewhite;
+  font-weight: bolder;
+}
+
+

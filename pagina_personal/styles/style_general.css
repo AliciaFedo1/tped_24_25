@@ -1,0 +1,46 @@
+body {
+    font-family:Inter, Newsbt;
+    src: url(assets/type/Inter_28pt_Bold.ttf) format("bold");
+    src: url(assets/type/Inter_28pt_Regular.ttf) format("regular");
+    src: url(assets/type/Inter_28pt_Thin.ttf) format("thin");
+    src: url(assets/type/News701_BT_Bold.ttf) format("title");
+    letter-spacing: 2px; 
+    background-color: black; 
+    margin-top: 20px;
+    margin-left: 10%;  
+    margin-right: 10%;
+}
+
+/*iPhone12*/
+@media screen and (max-width: 390px) {
+      p, h3 {font-size: 4.61vw;}
+      .topnav a {font-size: 4.61vw;}
+      h2, h4 {font-size: 8.2vw;}
+      h1 {font-size: 20.5vw;}
+      img {width: 50%; height: auto;}
+}
+
+/*iPadAir*/
+@media screen and (max-width: 1180px) {
+    p, h3 {font-size: 1.5vw;}
+    .topnav a {font-size: 1.5vw;}
+    h2, h4 {font-size: 2.7vw;}
+    h1 {font-size: 6.7vw;}
+}
+
+/*Pantalla grande*/
+@media screen and (max-width: 1920) {
+    p, h3 {font-size: 0.93vw;}
+    .topnav a {font-size: 0.93vw;}
+    h2, h4 {font-size: 1.6vw;}
+    h1 {font-size: 4.16vw;}
+}
+
+/*Portátil*/
+@media screen and (max-width: 1080px) {
+    p, h3 {font-size: 1.6vw;}
+    .topnav a {font-size: 1.6vw;}
+    h2, h4 {font-size: 2.9vw;}
+    h1 {font-size: 7.4vw;}
+    img{width: 100%; height: auto;}
+}

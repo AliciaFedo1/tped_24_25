@@ -1,0 +1,66 @@
+h1 {
+    font-family: Newsbt;
+    font-size: 4.16vw;
+    line-height: 104px;
+    color: rgb(200, 245, 40);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: Newsbt;
+    font-size: 1.6vw;
+    width: 100%;
+    color: rgb(200, 245, 40);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 0.93vw;
+    color: rgb(200, 245, 40);
+    margin-bottom: 20px;
+}
+
+  /*Variante de parrafo grande*/
+h4 {    
+    font-family: Inter;
+    font-size: 1.6vw;
+    color: rgb(200, 245, 40);
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 0.93vw;
+    line-height: 60px;
+    font-weight: 100;
+    color: rgb(13, 16, 12);
+}
+
+a {
+    color: rgb(200, 245, 40);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-weight: bolder;
+}
+
+ul.n {
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(200, 245, 40);
+  }
+
+ul.c {
+    width: 100%;
+    list-style-type: none;
+    font-family: Inter;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(200, 245, 40);
+    margin-top: 15px;
+  }
