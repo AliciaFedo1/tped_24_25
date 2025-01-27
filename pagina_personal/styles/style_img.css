@@ -43,3 +43,35 @@ img{
 .item img {
   width: 100%;
 }
+
+.slider {
+  width: 400px;
+  height:400px;
+  background-image: url(/pagina_personal/assets/s_poster_3.jpg);
+  background-size: cover;
+  background-position: center;
+  animation: animate 60s infinite;
+}
+
+@keyframes animate {
+  20% {
+    background-image: url(/pagina_personal/assets/s_poster_1.jpg);
+    background-size: cover;
+  }
+  40% {
+    background-image: url(/pagina_personal/assets/s_poster_2.jpg);
+    background-size: cover;
+  }
+  60% {
+    background-image: url(/pagina_personal/assets/s_poster_3.jpg);
+    background-size: cover;
+  }
+  80% {
+    background-image: url(/pagina_personal/assets/s_poster_4.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(/pagina_personal/assets/s_poster_5.jpg);
+    background-size: cover;
+  }
+}
